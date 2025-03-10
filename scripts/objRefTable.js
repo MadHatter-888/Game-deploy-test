@@ -4,7 +4,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite,
 		C3.Behaviors.Platform,
 		C3.Behaviors.scrollto,
-		C3.Behaviors.bound,
 		C3.Plugins.TiledBg,
 		C3.Behaviors.solid,
 		C3.Plugins.Keyboard,
@@ -17,13 +16,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Plugins.Sprite.Acts.Spawn,
-		C3.Behaviors.Platform.Acts.SetIgnoreInput
+		C3.Behaviors.Platform.Acts.SetIgnoreInput,
+		C3.Plugins.Sprite.Cnds.CompareY
 	];
 };
 self.C3_JsPropNameTable = [
 	{Platform: 0},
 	{ScrollTo: 0},
-	{BoundToLayout: 0},
 	{Steve: 0},
 	{Solid: 0},
 	{ground: 0},
